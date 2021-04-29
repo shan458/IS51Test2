@@ -9,3 +9,23 @@ The grades in the input text file will be read using the open() method and then 
 
 Lastly the information, which contains the student grades, average grade, and the percentage of grades that are above average, will be outputted to the user.
 """
+
+"""
+main
+    infile = open("Final.txt")
+    copy individual grades
+    close infile
+
+calculate_percent_above_average
+    average = sum of grades / total number of grades
+    num = 0
+    For grade in grades
+        if the grade is > average
+            num += 1
+    print("Number of grades: ", total number of grades)
+    print("Average grade: ", average)
+    print("Percentage of grades above average: {0:.2f}%)
+        format 100 * num / total number of grades
+
+main
+"""
